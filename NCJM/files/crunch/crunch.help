@@ -1,0 +1,16 @@
+
+- Min: Minimo de caracteres para generar una contraseña
+- Max: Maximo de caracteres para generar una contraseña
+
+- Destination File: Nombre del archivo a crear con la wordlist generada. Se guardara en "~/files/crunch/nombreDelArchivo".
+
+- Restricted Characters:  Expresion regular con caracteres fijos o regulares.
+			@ insertará caracteres en minúsculas
+			, insertará mayúsculas
+			% insertará números
+			^ insertará símbolos
+
+- Mixed Words: Insertar un listado de palabras separadas por espacios para generar una contraseña con todas sus posibles combinaciones.
+- Mixed Characters: Insertar caracteres para generar todas las posibilidades con esos caracteres.
+
+- Custom Crunch: Comando crunch manual para ejecutar .

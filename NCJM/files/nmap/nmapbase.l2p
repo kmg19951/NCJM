@@ -1,0 +1,4 @@
+Nmap scan report for 192.168.1.141
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u3 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.25 ((Debian))
+8080/tcp open  http    Apache Tomcat

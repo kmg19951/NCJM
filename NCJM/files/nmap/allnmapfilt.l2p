@@ -1,0 +1,4 @@
+192.168.0.10,80/tcp,open,http,554/tcp,open,rtsp,5000/tcp,open,upnp?
+192.168.0.11,21/tcp,open,ftp,Loxone,443/tcp,open,upnp,8080/tcp,open,http-proxy?
+192.168.0.15,22/tcp,open,ssh,(protocol,80/tcp,open,http,Apache,5900/tcp,open,vnc,VNC
+192.168.0.20,22/tcp,open,ssh,OpenSSH,111/tcp,open,rpcbind,2-4,3128/tcp,open,http,Proxmox

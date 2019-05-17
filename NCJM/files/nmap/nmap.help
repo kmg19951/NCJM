@@ -1,0 +1,11 @@
+
+- Hard Mode: Importamos un escaneo default para probar los filtros de la seccion 'Port Status - - Finder'
+
+- sudo nmap -A: Indicamos la ip o rango de ip a atacar.
+
+- Find port: Filtramos el escaneo del nmap por puerto.
+- Find service name: Filtramos el escaneo del nmap por nombre de servicio.
+- Find protocol: Filtramos el escaneo del nmap por protocolo.
+
+- Medusa: Abrir medusa para atacar una ip y puerto que conocemos gracias al nmap.
+

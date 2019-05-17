@@ -1,0 +1,13 @@
+
+- Host: Ip de la maquina que queremos atacar.
+
+- User: Usuario que medusa intentara acceder.
+ -- From File: Lista de usuarios para acceder.
+
+- Password Wordlist: Lista de contraseñas.
+ -- Create: Este boton abre el crunch para generar una wordlist personalizada.
+
+- Service: Nombre del servicio a atacar.
+ -- Custom Port: Puerto customizado en el cual el servicio a atacar de aloja.
+
+- Update: Actualizare el comando con los parametros introducidos.

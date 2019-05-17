@@ -1,0 +1,13 @@
+
+- Unshadow: Lanzar el comando unshadow del john para generar los hash de nuestro sistema operativo.
+- Custom File: Importar un archivo personalizado con nuestros propios hashes a crackear.
+
+- Single: Modo 'single' del john, el mas sencillo de todos y normalmente no sirve de mucho. Utiliza combinaciones con numeros y el usuario introducido para generar contraseñas y intentar encontrarla. Normalmente no sirve de mucho
+
+- Wordlist: Modo interesante del john ya que si tenemos una cierta idea de la contraseña a encontrar podemos generar una wordlist con el boton 'Generate Wordlist' y intentar entcontrarla.
+ -- Generate Wordlist: Boton para abrir el crunch y generar una wordlist.
+
+- Incremental: Modo para ser muy preciso, si una contraseña es larga pero sabemos que tiene solo numeros podemos indicarle en este modo que es numerico y en el boton 'Advanced', configuramos como de largo queremos la contraseña, y va probando a la par que genera, lo contrario al modo wordlist.
+ -- Advanced: Boton para configurar los modos del modo Incremental.
+
+- Show cracked passwords: Enseña todas las contraseñas crackeadas anteriormente, teniendo seleccionado o el unshadow o el archivo personalizado.

@@ -1,0 +1,23 @@
+
+############## Nmap ###############
+
+Nmap ("Network Mapper") es una herramienta de código abierto para la exploración de redes y la auditoría de seguridad. Fue diseñado para escanear rápidamente redes grandes, aunque funciona bien contra hosts individuales. Nmap utiliza paquetes de IP sin procesar en formas novedosas para determinar qué hosts están disponibles en la red, qué servicios (nombre de aplicación y versión) ofrecen, qué sistemas operativos (y versiones de SO) están ejecutando, qué tipo de paquete.
+
+
+
+############# Crunch ##############
+
+Crunch puede crear una lista de palabras según los criterios que especifique.
+La salida de crunch se puede enviar a la pantalla, archivo u otro programa.
+
+
+
+######### John The Ripper #########
+
+John the Ripper es una herramienta de crackeo de contraseñas
+
+
+
+############# Medusa ##############
+
+Medusa está pensado para ser un iniciador de fuerza bruta, masivo paralelo, modular y de inicio de sesión. El objetivo es admitir tantos servicios que permitan la autenticación remota como sea posible.

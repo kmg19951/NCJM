@@ -1,0 +1,139 @@
+Nmap scan report for 192.168.1.7
+80/tcp  open  http    Microsoft IIS httpd 10.0
+135/tcp open  msrpc   Microsoft Windows RPC
+Nmap scan report for 192.168.1.15
+80/tcp  open  http    Microsoft IIS httpd 10.0
+135/tcp open  msrpc   Microsoft Windows RPC
+Nmap scan report for 192.168.1.57
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u3 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.25 ((Debian))
+8080/tcp open  http    Apache Tomcat
+Nmap scan report for 192.168.1.59
+8100/tcp open  http    Node.js (Express middleware)
+Nmap scan report for 192.168.1.68
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u4 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.25 ((Debian))
+8080/tcp open  http    Apache Tomcat
+Nmap scan report for 192.168.1.75
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u5 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.25 ((Debian))
+8080/tcp open  http    Apache Tomcat
+Nmap scan report for 192.168.1.77
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u5 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.25 ((Debian))
+8080/tcp open  http    Apache Tomcat
+Nmap scan report for 192.168.1.83
+22/tcp open  ssh     OpenSSH 7.4p1 Debian 10+deb9u6 (protocol 2.0)
+Nmap scan report for 192.168.1.104
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u5 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.25 ((Debian))
+8080/tcp open  http    Apache Tomcat
+Nmap scan report for 192.168.1.114
+80/tcp   open  http          nginx
+139/tcp  open  netbios-ssn?
+445/tcp  open  microsoft-ds?
+6000/tcp open  http          aiohttp 2.1.0 (Python 3.6)
+Nmap scan report for 192.168.1.116
+22/tcp    open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+10000/tcp open  http    MiniServ 1.900 (Webmin httpd)
+Nmap scan report for 192.168.1.117
+22/tcp   open  ssh             OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http            Apache httpd
+139/tcp  open  netbios-ssn     Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+443/tcp  open  ssl/https       Apache
+445/tcp  open  netbios-ssn     Samba smbd 4.7.6-Ubuntu (workgroup: WORKGROUP)
+902/tcp  open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+5666/tcp open  tcpwrapped
+8100/tcp open  http            Node.js (Express middleware)
+9000/tcp open  cslistener?
+Nmap scan report for 192.168.1.118
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u5 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.25 ((Debian))
+8080/tcp open  http    Apache Tomcat
+Nmap scan report for 192.168.1.120
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u4 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.25 ((Debian))
+8080/tcp open  http    Apache Tomcat
+Nmap scan report for 192.168.1.121
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u4 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.25 ((Debian))
+8080/tcp open  http    Apache Tomcat
+Nmap scan report for 192.168.1.122
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u5 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.25 ((Debian))
+8080/tcp open  http    Apache Tomcat
+Nmap scan report for 192.168.1.125
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u5 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.25 ((Debian))
+8080/tcp open  http    Apache Tomcat
+Nmap scan report for 192.168.1.140
+80/tcp open  ssl/http?
+Nmap scan report for 192.168.1.141
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u3 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.25 ((Debian))
+8080/tcp open  http    Apache Tomcat
+Nmap scan report for 192.168.1.142
+53/tcp    open  domain       Microsoft DNS 6.1.7601
+80/tcp    open  http         Microsoft IIS httpd 7.5
+88/tcp    open  kerberos-sec Microsoft Windows Kerberos (server time: 2019-05-02 17:20:06Z)
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+389/tcp   open  ldap         Microsoft Windows Active Directory LDAP (Domain: prueba.com, Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds Windows Server 2008 R2 Standard 7601 Service Pack 1 microsoft-ds (workgroup: PRUEBA)
+464/tcp   open  tcpwrapped
+593/tcp   open  ncacn_http   Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped
+3268/tcp  open  ldap         Microsoft Windows Active Directory LDAP (Domain: prueba.com, Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49156/tcp open  msrpc        Microsoft Windows RPC
+49158/tcp open  ncacn_http   Microsoft Windows RPC over HTTP 1.0
+Nmap scan report for 192.168.1.153
+80/tcp  open  http     Apache httpd
+135/tcp open  msrpc    Microsoft Windows RPC
+443/tcp open  ssl/http Apache httpd
+Nmap scan report for 192.168.1.163
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u6 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.25 ((Debian))
+8080/tcp open  http    Apache Tomcat
+Nmap scan report for 192.168.1.167
+22/tcp   open  ssh        OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+8009/tcp open  ajp13      Apache Jserv (Protocol v1.3)
+8080/tcp open  http-proxy
+Nmap scan report for 192.168.1.168
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u6 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.25 ((Debian))
+8080/tcp open  http    Apache Tomcat
+Nmap scan report for 192.168.1.169
+80/tcp  open  http    Microsoft IIS httpd 10.0
+135/tcp open  msrpc   Microsoft Windows RPC
+Nmap scan report for 192.168.1.197
+22/tcp   open  ssh             OpenSSH 7.4p1 Debian 10+deb9u6 (protocol 2.0)
+80/tcp   open  http            Apache httpd 2.4.25 ((Debian))
+443/tcp  open  ssl/https
+902/tcp  open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+8080/tcp open  http            Apache Tomcat
+Nmap scan report for 192.168.1.211
+80/tcp  open  http    Microsoft IIS httpd 10.0
+135/tcp open  msrpc   Microsoft Windows RPC
+Nmap scan report for 192.168.1.223
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u4 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.25 ((Debian))
+8080/tcp open  http    Apache Tomcat
+Nmap scan report for 192.168.1.229
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u6 (protocol 2.0)
+80/tcp   open  http    nginx 1.10.3
+8080/tcp open  http    Apache Tomcat
+Nmap scan report for 192.168.1.248
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u4 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.25 ((Debian))
+8080/tcp open  http    Apache Tomcat
+Nmap scan report for 192.168.1.253
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u4 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.25 ((Debian))
+8080/tcp open  http    Apache Tomcat
+Nmap scan report for 192.168.1.254
+22/tcp   open  ssh     OpenSSH 7.4p1 Debian 10+deb9u4 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.25 ((Debian))
+8080/tcp open  http    Apache Tomcat
