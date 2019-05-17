@@ -86,7 +86,7 @@ def init(top, gui, *args, **kwargs):
     w = gui
     top_level = top
     root = top
-    paco = os.system('apt list --installed | grep -e crunch/ -e john/ -e medusa/ -e nmap/ | wc -l > /home/alumne/Escriptori/TF/logs/countPrograms.log')
+    paco = os.system('apt list --installed | grep -e crunch/ -e john/ -e medusa/ -e nmap/ | wc -l > ' + os.getcwd() + '/logs/countPrograms.log')
     f = open(os.getcwd() + "/logs/countPrograms.log","r")
     r = f.read()
     print(r.rstrip())
